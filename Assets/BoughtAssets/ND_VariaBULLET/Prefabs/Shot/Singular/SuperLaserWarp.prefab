@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1021083517800662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4168972074903972}
+  - component: {fileID: 114365844142632742}
+  m_Layer: 0
+  m_Name: SuperLaserWarp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4168972074903972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021083517800662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114365844142632742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021083517800662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064f6a6f4295af4448b5b6ce1b6f39bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShotSpeed: 0
+  IgnoreGlobalSpeedScale: 0
+  ParentToEmitter: 0
+  DamagePerHit: 8
+  InheritStartRotation: 0
+  scaledSpeed: 0
+  Trajectory: {x: 0, y: 0}
+  Emitter: {fileID: 0}
+  ExitPoint: 0
+  FiringScript: {fileID: 0}
+  sortLayer: 
+  sortOrder: 0
+  HitsPerSecond: 7
+  OriginImg:
+  - {fileID: 21300000, guid: da108235f4c013e4a8bf43b2f756f661, type: 3}
+  - {fileID: 21300000, guid: 43bc4ab8cfe60e44fa017d632e900873, type: 3}
+  - {fileID: 21300000, guid: 8a7c90512b69db3458dd82fba68081b5, type: 3}
+  MainImg:
+  - {fileID: 21300000, guid: 571dffc8246d76e4eb5f730885ab48f2, type: 3}
+  - {fileID: 21300000, guid: 67cea82ecc41a874a88382179992d507, type: 3}
+  - {fileID: 21300000, guid: 0add89f8c790fb4478e0f0b4bdb0af49, type: 3}
+  - {fileID: 21300000, guid: 34496ac5553075b4895e55efa28ec63b, type: 3}
+  - {fileID: 21300000, guid: edc2573129ed3074aabf0f5bca53c67b, type: 3}
+  - {fileID: 21300000, guid: aad69bb5de497bb4195710671107d750, type: 3}
+  - {fileID: 21300000, guid: 54a2117ad64459949b4861feabd13572, type: 3}
+  - {fileID: 21300000, guid: c00d8e26fb2dfbc43bc78367ec8c5abf, type: 3}
+  - {fileID: 21300000, guid: 09db95984c3126347bfe28525e7f8e58, type: 3}
+  - {fileID: 21300000, guid: da95e1b98413e854b9b483dd58f3e344, type: 3}
+  TipImg:
+  - {fileID: 21300000, guid: 4376d2c13a05da64295846b246cb1c08, type: 3}
+  - {fileID: 21300000, guid: daf2a0f117a4a4849ab653565f586227, type: 3}
+  - {fileID: 21300000, guid: b46a906b1f61ba2429807c3cdf3928e4, type: 3}
+  BlastImg:
+  - {fileID: 21300000, guid: 5c4a786c95f875a4c8ff4411fcccbedd, type: 3}
+  - {fileID: 21300000, guid: 64d22620b1e8739449249635e704f2b3, type: 3}
+  - {fileID: 21300000, guid: 826f91f3c5fc2654f9876a2f4732f367, type: 3}
+  - {fileID: 21300000, guid: d06d368edfb120e40b8706703ba9b1ee, type: 3}
+  FrameSkip: 1
+  CollisionThickness: 0.5
+  CollisionTipZone: 0.25
+  AddedMaxDistance: 0
+  MaskingSprite: {fileID: 21300000, guid: 91a1e986058ec674184ede2c7b2f7f7a, type: 3}
+  UniqueMaskId: 30
+  StaggerAnimations: 0
+  MainAdjust: 4
+  MainMaskYScale: 1
+  TipAdjust: -11
+  TipMaskYScale: 1.5

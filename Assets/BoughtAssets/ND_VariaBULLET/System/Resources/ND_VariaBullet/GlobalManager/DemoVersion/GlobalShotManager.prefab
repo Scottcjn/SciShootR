@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000011598819044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000011327947932}
+  - component: {fileID: 114000010831195572}
+  - component: {fileID: 114000011189297792}
+  m_Layer: 0
+  m_Name: GlobalShotManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011327947932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011598819044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010831195572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011598819044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026e4214ab7196944b59c6f63e4169a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FindStaticCollBy: 1
+  StaticColl: Player
+  StaticCollRadius: 5
+  EnableTestFrameRate: 1
+  TestFrameRate: 60
+  VSync: 1
+  SpeedScale: 1
+  RateScale: 1
+  LockRateToSpeed: 0
+  ExplosionPrefabs:
+  - {fileID: 1000010815794000, guid: 5948a433f578815479fa7bec6e55d8fe, type: 3}
+  - {fileID: 1000013937580902, guid: 60447add513296a459f49ef8923243ed, type: 3}
+  - {fileID: 1000010803653142, guid: 3a590609c1a55224ba293ab4d94574f3, type: 3}
+  - {fileID: 1000011190994258, guid: d7f19057edd436f409ae575f8d1b7569, type: 3}
+  - {fileID: 1000012129208712, guid: 59d436953b48bd148bdbe03c4e89563f, type: 3}
+  - {fileID: 1000011394237436, guid: 95a06e4a423574c4d8ef40779d7d3ecd, type: 3}
+  - {fileID: 1000013222772914, guid: 0a4bf6d4cc14808478193ad5de019ebc, type: 3}
+  - {fileID: 1000012501789358, guid: 3c4883cdc1b4b3041911e0e4bf3af03f, type: 3}
+  - {fileID: 1000011057261608, guid: 7665cf4edae752b4688c5a16de4cb138, type: 3}
+  - {fileID: 1344723920784186, guid: df0e676f66d615c46b2bff9a33645d1c, type: 3}
+  - {fileID: 1743203006835136, guid: 9d93d32be3bc5bf4aa0b3e672b032797, type: 3}
+  - {fileID: 1606222781775270, guid: 81a13fc97de83394fa4f0c021f68c486, type: 3}
+  PoolSize: 10
+  EmulateCPUThrottle: 1
+  ThrottlePerBullet: 0.0008
+  MaxThrottle: 0.68
+  MaxBulletUntilThrottle: 280
+  OutBoundsRange: {x: 260, y: 260}
+--- !u!114 &114000011189297792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011598819044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f4b798e8b9e07418b4fe82288da917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FontStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 0, b: 0.84827566, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 1
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 0
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 0
+    m_StretchHeight: 0

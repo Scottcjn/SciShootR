@@ -1,0 +1,1 @@
+This folder is required for the automated collision backup/setup routine.

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000011880751982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000012537249458}
+  - component: {fileID: 114000010889488650}
+  m_Layer: 0
+  m_Name: LaserRotating
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012537249458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011880751982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010889488650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011880751982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a68185f38235c4384b419b2e3d212b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShotSpeed: 0
+  IgnoreGlobalSpeedScale: 0
+  ParentToEmitter: 0
+  DamagePerHit: 1
+  InheritStartRotation: 0
+  scaledSpeed: 0
+  Trajectory: {x: 0, y: 0}
+  Emitter: {fileID: 0}
+  ExitPoint: 0
+  FiringScript: {fileID: 0}
+  sortLayer: 
+  sortOrder: 0
+  HitsPerSecond: 7
+  OriginImg:
+  - {fileID: 21300000, guid: 6a83185097f881e409dff51411871b0a, type: 3}
+  - {fileID: 21300000, guid: 81c33ad1f17ec214d87f790b64e741ab, type: 3}
+  - {fileID: 21300000, guid: 99588da38f33f1e46aff585ce6c210b8, type: 3}
+  - {fileID: 21300000, guid: e65e95e5f1f86514ca15017924d251df, type: 3}
+  MainImg:
+  - {fileID: 21300000, guid: d35107ec518d1ad4ebcd0b28ea00f5f4, type: 3}
+  - {fileID: 21300000, guid: 066fc02fedef1af4dab1cce2ea64e9a7, type: 3}
+  - {fileID: 21300000, guid: 6be9dbfbef92ffd49b55004ae6827d52, type: 3}
+  - {fileID: 21300000, guid: 41108029ac1929d42b57f18b33975b44, type: 3}
+  TipImg:
+  - {fileID: 21300000, guid: bc130da5052ca8d4da7970123aef3261, type: 3}
+  - {fileID: 21300000, guid: 25e9312612162c743a39dc9f4e3e8700, type: 3}
+  - {fileID: 21300000, guid: ee22178203228d5459adfb7c8a55d4df, type: 3}
+  - {fileID: 21300000, guid: a3093ff6542e9df45bd2d46b9e797bf6, type: 3}
+  BlastImg:
+  - {fileID: 21300000, guid: 9b6c68d9c84c28b4696dc53ba365fdc4, type: 3}
+  - {fileID: 21300000, guid: c18dc3f4879fd2848af8cdb735a2f829, type: 3}
+  - {fileID: 21300000, guid: 5f6ed52748c111e4b84e55b9fb80102e, type: 3}
+  - {fileID: 21300000, guid: e94d8459395bbe142acfc7e0ca63da08, type: 3}
+  FrameSkip: 2
+  CollisionThickness: 0.5
+  CollisionTipZone: 0.1
+  AddedMaxDistance: 0
+  expressionType: 0

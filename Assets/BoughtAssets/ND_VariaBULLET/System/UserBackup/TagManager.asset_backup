@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - ND_PlayerBullet
+  - ND_EnemyBullet
+  - ND_SelfColliding
+  - ND_UserBullet1
+  - ND_UserBullet2
+  - ND_UserBullet3
+  - ND_UserBullet4
+  - ND_UserBullet5
+  - ND_UserBullet6
+  - ND_UserBullet7
+  - ND_UserBullet8
+  - Terrain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: 
+    uniqueID: 879317491
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2988509289
+    locked: 0
+  - name: Enemy
+    uniqueID: 2813604153
+    locked: 0
+  - name: ND_PlayerBullet
+    uniqueID: 1076366993
+    locked: 0
+  - name: ND_EnemyBullet
+    uniqueID: 3872915901
+    locked: 0
+  - name: ND_SelfColliding
+    uniqueID: 2885287131
+    locked: 0
+  - name: ND_UserBullet1
+    uniqueID: 3244889201
+    locked: 0
+  - name: ND_UserBullet2
+    uniqueID: 3477681331
+    locked: 0
+  - name: ND_UserBullet3
+    uniqueID: 3465123847
+    locked: 0
+  - name: ND_UserBullet4
+    uniqueID: 1918837723
+    locked: 0
+  - name: ND_UserBullet5
+    uniqueID: 935012827
+    locked: 0
+  - name: ND_UserBullet6
+    uniqueID: 1134230785
+    locked: 0
+  - name: ND_UserBullet7
+    uniqueID: 1507364069
+    locked: 0
+  - name: ND_UserBullet8
+    uniqueID: 1210124935
+    locked: 0
+  - name: Terrain
+    uniqueID: 209156917
+    locked: 0
